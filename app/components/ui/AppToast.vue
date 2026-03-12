@@ -17,9 +17,7 @@ const { isVisible, message, type, hide } = useToast()
           <span class="toast__text">{{ message }}</span>
         </div>
 
-        <button type="button" class="toast__close" @click="hide">
-          ×
-        </button>
+        <button type="button" class="toast__close" @click="hide">×</button>
       </div>
     </transition>
   </Teleport>

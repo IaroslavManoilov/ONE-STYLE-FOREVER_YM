@@ -46,6 +46,7 @@ export const storeMessages = {
     polo: 'Поло',
     inStock: 'В наличии',
     addToCart: 'Добавить в корзину',
+    added: 'Добавлено',
     total: 'Итого',
     aboutPageTitle: 'О компании ONE_STYLE FOREVER',
     aboutLead: 'ONE_STYLE FOREVER — это магазин, который помогает людям чувствовать себя уверенно, комфортно и стильно каждый день. Мы делаем понятный каталог, аккуратную подачу вещей и современный фирменный стиль.',
@@ -73,7 +74,13 @@ export const storeMessages = {
     footerText: 'ONE_STYLE FOREVER — современный магазин одежды и аксессуаров с чистым визуальным стилем и понятным сервисом.',
     footerLinks: 'Разделы',
     footerContacts: 'Связаться с нами',
-    footerCopyright: '© 2026 ONE_STYLE FOREVER. Все права защищены.'
+    footerCopyright: '© 2026 ONE_STYLE FOREVER. Все права защищены.',
+    chooseSize: 'Выберите размер',
+    chooseSizeShort: 'Размер',
+    selectSizeFirst: 'Сначала выберите размер',
+    selectedSize: 'Выбран размер',
+    toastAddedWithSize: 'Товар добавлен',
+    toastSizePrefix: 'размер'
   },
   ro: {
     brand: 'ONE_STYLE FOREVER',
@@ -110,6 +117,7 @@ export const storeMessages = {
     polo: 'Polo',
     inStock: 'În stoc',
     addToCart: 'Adaugă în coș',
+    added: 'Adăugat',
     total: 'Total',
     aboutPageTitle: 'Despre ONE_STYLE FOREVER',
     aboutLead: 'ONE_STYLE FOREVER este un magazin care ajută oamenii să se simtă încrezători, confortabili și stilizați în fiecare zi.',
@@ -137,7 +145,13 @@ export const storeMessages = {
     footerText: 'ONE_STYLE FOREVER este un magazin modern de haine și accesorii cu stil vizual curat.',
     footerLinks: 'Secțiuni',
     footerContacts: 'Contacte',
-    footerCopyright: '© 2026 ONE_STYLE FOREVER. Toate drepturile rezervate.'
+    footerCopyright: '© 2026 ONE_STYLE FOREVER. Toate drepturile rezervate.',
+    chooseSize: 'Alege mărimea',
+    chooseSizeShort: 'Mărime',
+    selectSizeFirst: 'Alege mai întâi mărimea',
+    selectedSize: 'Mărimea aleasă',
+    toastAddedWithSize: 'Produs adăugat',
+    toastSizePrefix: 'mărime'
   },
   en: {
     brand: 'ONE_STYLE FOREVER',
@@ -174,6 +188,7 @@ export const storeMessages = {
     polo: 'Polo',
     inStock: 'In stock',
     addToCart: 'Add to cart',
+    added: 'Added',
     total: 'Total',
     aboutPageTitle: 'About ONE_STYLE FOREVER',
     aboutLead: 'ONE_STYLE FOREVER is a store that helps people feel confident, comfortable and stylish every day.',
@@ -201,6 +216,12 @@ export const storeMessages = {
     footerText: 'ONE_STYLE FOREVER is a modern clothing and accessories store with a clean visual style.',
     footerLinks: 'Sections',
     footerContacts: 'Contact us',
-    footerCopyright: '© 2026 ONE_STYLE FOREVER. All rights reserved.'
+    footerCopyright: '© 2026 ONE_STYLE FOREVER. All rights reserved.',
+    chooseSize: 'Choose size',
+    chooseSizeShort: 'Size',
+    selectSizeFirst: 'Select size first',
+    selectedSize: 'Selected size',
+    toastAddedWithSize: 'Product added',
+    toastSizePrefix: 'size'
   }
 } as const

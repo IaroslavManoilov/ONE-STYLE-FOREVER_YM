@@ -1,4 +1,5 @@
 ﻿export type ProductCategory = 'sweater' | 'hoodie' | 'polo'
+export type ProductColor = 'white' | 'black'
 
 export type Product = {
   id: number
@@ -7,6 +8,7 @@ export type Product = {
   oldPrice?: number | null
   sizes: string[]
   category: ProductCategory
+  color: ProductColor
   images: string[]
   inStock: boolean
   badge?: 'NEW' | 'HOT' | ''
@@ -30,6 +32,7 @@ export const products: Product[] = [
     oldPrice: null,
     sizes: ['S', 'M', 'L'],
     category: 'sweater',
+    color: 'white',
     images: ['/images/products/halfzip-white.png'],
     inStock: true,
     badge: 'NEW',
@@ -51,6 +54,7 @@ export const products: Product[] = [
     oldPrice: null,
     sizes: ['S', 'M', 'L'],
     category: 'sweater',
+    color: 'black',
     images: ['/images/products/halfzip-black.png'],
     inStock: true,
     badge: 'HOT',
@@ -72,6 +76,7 @@ export const products: Product[] = [
     oldPrice: null,
     sizes: ['S', 'M', 'L'],
     category: 'hoodie',
+    color: 'black',
     images: [
       '/images/products/hoodie-black-front.png',
       '/images/products/hoodie-black-back.png'
@@ -96,6 +101,7 @@ export const products: Product[] = [
     oldPrice: null,
     sizes: ['S', 'M', 'L'],
     category: 'hoodie',
+    color: 'white',
     images: ['/images/products/hoodie-white-front.png'],
     inStock: true,
     badge: '',
@@ -117,6 +123,7 @@ export const products: Product[] = [
     oldPrice: null,
     sizes: ['S', 'M', 'L'],
     category: 'polo',
+    color: 'white',
     images: ['/images/products/polo-white.png'],
     inStock: true,
     badge: '',
@@ -138,6 +145,7 @@ export const products: Product[] = [
     oldPrice: null,
     sizes: ['S', 'M', 'L'],
     category: 'polo',
+    color: 'black',
     images: ['/images/products/polo-black.png'],
     inStock: true,
     badge: '',
